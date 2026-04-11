@@ -60,7 +60,9 @@ def get_prices(
                 codes.append(f"S{a.upper()}")
         facets["duoarea"] = codes
 
-    params = build_params(facets=facets, frequency=frequency, start=start, end=end)
+    params = build_params(
+        data=["value"], facets=facets, frequency=frequency, start=start, end=end
+    )
     return EIAClient(api_key=api_key).fetch_all(
         resolve_route("prices", route), params
     )

@@ -68,7 +68,9 @@ def get_storage(
             codes.append(_REGION_MAP[key])
         facets["duoarea"] = codes
 
-    params = build_params(facets=facets, frequency=frequency, start=start, end=end)
+    params = build_params(
+        data=["value"], facets=facets, frequency=frequency, start=start, end=end
+    )
     return EIAClient(api_key=api_key).fetch_all(
         resolve_route("storage", route), params
     )

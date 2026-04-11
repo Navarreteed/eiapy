@@ -44,7 +44,9 @@ def get_summary(
     validate_date(start, "start")
     validate_date(end, "end")
 
-    params = build_params(frequency=frequency, start=start, end=end)
+    params = build_params(
+        data=["value"], frequency=frequency, start=start, end=end
+    )
     return EIAClient(api_key=api_key).fetch_all(
         resolve_route("summary", route), params
     )

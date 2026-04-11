@@ -50,7 +50,9 @@ def get_movements(
     if states := as_list(state):
         facets["duoarea"] = [f"S{s.upper()}" for s in states]
 
-    params = build_params(facets=facets, frequency=frequency, start=start, end=end)
+    params = build_params(
+        data=["value"], facets=facets, frequency=frequency, start=start, end=end
+    )
     return EIAClient(api_key=api_key).fetch_all(
         resolve_route("movements", route), params
     )

@@ -14,7 +14,10 @@ from pygasflow import (
     NotFoundError,
     get_available_series,
     get_consumption,
+    get_exploration,
+    get_movements,
     get_prices,
+    get_production,
     get_storage,
 )
 
@@ -165,3 +168,84 @@ def test_get_available_series(base_url):
     meta = get_available_series("consumption")
     assert "facets" in meta
     assert any(f["id"] == "duoarea" for f in meta["facets"])
+
+
+# ---------------------------------------------------------------------------
+# state=None / no-filter — must send NO duoarea facet
+# ---------------------------------------------------------------------------
+
+_ALL_STATE_ROWS = [
+    {"period": "2024-01", "duoarea": "STX", "value": "100"},
+    {"period": "2024-01", "duoarea": "SCA", "value": "80"},
+    {"period": "2024-01", "duoarea": "NUS", "value": "5000"},
+]
+
+
+@responses.activate
+def test_get_production_no_state_sends_no_facet(base_url):
+    responses.add(
+        responses.GET,
+        f"{base_url}natural-gas/prod/sum/data",
+        json=_data_payload(_ALL_STATE_ROWS),
+    )
+    df = get_production()
+    assert len(df) == 3
+    sent = parse_qs(urlparse(responses.calls[0].request.url).query)
+    assert "facets[duoarea][]" not in sent
+    assert sent["data[]"] == ["value"]
+
+
+@responses.activate
+def test_get_consumption_no_state_sends_no_facet(base_url):
+    responses.add(
+        responses.GET,
+        f"{base_url}natural-gas/cons/sum/data",
+        json=_data_payload(_ALL_STATE_ROWS),
+    )
+    df = get_consumption()
+    assert len(df) == 3
+    sent = parse_qs(urlparse(responses.calls[0].request.url).query)
+    assert "facets[duoarea][]" not in sent
+    assert sent["data[]"] == ["value"]
+
+
+@responses.activate
+def test_get_movements_no_state_sends_no_facet(base_url):
+    responses.add(
+        responses.GET,
+        f"{base_url}natural-gas/move/ist/data",
+        json=_data_payload(_ALL_STATE_ROWS),
+    )
+    df = get_movements()
+    assert len(df) == 3
+    sent = parse_qs(urlparse(responses.calls[0].request.url).query)
+    assert "facets[duoarea][]" not in sent
+    assert sent["data[]"] == ["value"]
+
+
+@responses.activate
+def test_get_exploration_no_state_sends_no_facet(base_url):
+    responses.add(
+        responses.GET,
+        f"{base_url}natural-gas/enr/sum/data",
+        json=_data_payload(_ALL_STATE_ROWS),
+    )
+    df = get_exploration()
+    assert len(df) == 3
+    sent = parse_qs(urlparse(responses.calls[0].request.url).query)
+    assert "facets[duoarea][]" not in sent
+    assert sent["data[]"] == ["value"]
+
+
+@responses.activate
+def test_get_storage_no_region_sends_no_facet(base_url):
+    responses.add(
+        responses.GET,
+        f"{base_url}natural-gas/stor/wkly/data",
+        json=_data_payload(_ALL_STATE_ROWS),
+    )
+    df = get_storage()
+    assert len(df) == 3
+    sent = parse_qs(urlparse(responses.calls[0].request.url).query)
+    assert "facets[duoarea][]" not in sent
+    assert sent["data[]"] == ["value"]
