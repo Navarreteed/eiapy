@@ -1,0 +1,50 @@
+{
+  "tree": {
+    "international": {
+      "route": "international",
+      "name": "International",
+      "description": "Country level production, consumption, imports, exports by energy source (petroleum, natural gas, electricity, renewable, etc.)  \r\n        Interactive product:  https://www.eia.gov/international/data/world",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "productId",
+        "activityId",
+        "countryRegionId",
+        "countryRegionTypeId",
+        "dataFlagId",
+        "unit"
+      ]
+    }
+  },
+  "leaves": [
+    {
+      "route": "international",
+      "name": "International",
+      "description": "Country level production, consumption, imports, exports by energy source (petroleum, natural gas, electricity, renewable, etc.)  \r\n        Interactive product:  https://www.eia.gov/international/data/world",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "productId",
+        "activityId",
+        "countryRegionId",
+        "countryRegionTypeId",
+        "dataFlagId",
+        "unit"
+      ]
+    }
+  ]
+}

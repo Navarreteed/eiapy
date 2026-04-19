@@ -1,0 +1,337 @@
+{
+  "tree": {
+    "aeo": {
+      "route": "aeo",
+      "name": "Annual Energy Outlook",
+      "description": "Annual U.S. projections using National Energy Modelling System (NEMS) for release year.  Report, documentation, and interactive projection data browser:  AEO (www.eia.gov/aeo/)",
+      "children": {
+        "2026": {
+          "route": "aeo/2026",
+          "name": null,
+          "description": "Annual Energy Outlook 2026",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2025": {
+          "route": "aeo/2025",
+          "name": null,
+          "description": "Annual Energy Outlook 2025",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2023": {
+          "route": "aeo/2023",
+          "name": null,
+          "description": "Annual Energy Outlook 2023",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2022": {
+          "route": "aeo/2022",
+          "name": null,
+          "description": "Annual Energy Outlook 2022",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2021": {
+          "route": "aeo/2021",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2020": {
+          "route": "aeo/2020",
+          "name": null,
+          "description": "Annual Energy Outlook 2020",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2019": {
+          "route": "aeo/2019",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2018": {
+          "route": "aeo/2018",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2017": {
+          "route": "aeo/2017",
+          "name": null,
+          "description": "Annual Energy Outlook 2017",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2016": {
+          "route": "aeo/2016",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2015": {
+          "route": "aeo/2015",
+          "name": null,
+          "description": "Annual Energy Outlook 2015",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2014": {
+          "route": "aeo/2014",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2014-er": {
+          "route": "aeo/2014-er",
+          "name": null,
+          "description": "Annual Energy Outlook 2014 Early Release",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "aeo/2026",
+      "name": null,
+      "description": "Annual Energy Outlook 2026",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2025",
+      "name": null,
+      "description": "Annual Energy Outlook 2025",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2023",
+      "name": null,
+      "description": "Annual Energy Outlook 2023",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2022",
+      "name": null,
+      "description": "Annual Energy Outlook 2022",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2020",
+      "name": null,
+      "description": "Annual Energy Outlook 2020",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2017",
+      "name": null,
+      "description": "Annual Energy Outlook 2017",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2015",
+      "name": null,
+      "description": "Annual Energy Outlook 2015",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    },
+    {
+      "route": "aeo/2014-er",
+      "name": null,
+      "description": "Annual Energy Outlook 2014 Early Release",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "tree": {
+    "ieo": {
+      "route": "ieo",
+      "name": "International Energy Outlook",
+      "description": "Annual international projections using the World Energy Projection System (WEPS) model for release year.  Report and interactive projection data browser:  IEO (www.eia.gov/ieo/)",
+      "children": {
+        "2023": {
+          "route": "ieo/2023",
+          "name": null,
+          "description": "International Energy Outlook 2023",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "value"
+          ],
+          "facets": [
+            "history",
+            "scenario",
+            "tableId",
+            "seriesId",
+            "regionId"
+          ]
+        },
+        "2021": {
+          "route": "ieo/2021",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2019": {
+          "route": "ieo/2019",
+          "error": "EIA API rate limit exceeded."
+        },
+        "2017": {
+          "route": "ieo/2017",
+          "error": "EIA API rate limit exceeded."
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "ieo/2023",
+      "name": null,
+      "description": "International Energy Outlook 2023",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "history",
+        "scenario",
+        "tableId",
+        "seriesId",
+        "regionId"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4270 @@
+{
+  "tree": {
+    "petroleum": {
+      "route": "petroleum",
+      "name": "Petroleum",
+      "description": "EIA petroleum gas survey data",
+      "children": {
+        "sum": {
+          "route": "petroleum/sum",
+          "name": "Petroleum, Summary",
+          "description": "Petroleum, Summary",
+          "children": {
+            "b100": {
+              "route": "petroleum/sum/b100",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "snd": {
+              "route": "petroleum/sum/snd",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "sndw": {
+              "route": "petroleum/sum/sndw",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "crdsnd": {
+              "route": "petroleum/sum/crdsnd",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "mkt": {
+              "route": "petroleum/sum/mkt",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "pri": {
+          "route": "petroleum/pri",
+          "name": "Petroleum, Prices",
+          "description": "Petroleum, Prices",
+          "children": {
+            "gnd": {
+              "route": "petroleum/pri/gnd",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "weekly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "spt": {
+              "route": "petroleum/pri/spt",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "weekly",
+                "annual",
+                "daily"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "fut": {
+              "route": "petroleum/pri/fut",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "weekly",
+                "annual",
+                "daily"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wfr": {
+              "route": "petroleum/pri/wfr",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "weekly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refmg": {
+              "route": "petroleum/pri/refmg",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refmg2": {
+              "route": "petroleum/pri/refmg2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refoth": {
+              "route": "petroleum/pri/refoth",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "allmg": {
+              "route": "petroleum/pri/allmg",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dist": {
+              "route": "petroleum/pri/dist",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "prop": {
+              "route": "petroleum/pri/prop",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "resid": {
+              "route": "petroleum/pri/resid",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dfp1": {
+              "route": "petroleum/pri/dfp1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dfp2": {
+              "route": "petroleum/pri/dfp2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dfp3": {
+              "route": "petroleum/pri/dfp3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "rac2": {
+              "route": "petroleum/pri/rac2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc1": {
+              "route": "petroleum/pri/imc1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc2": {
+              "route": "petroleum/pri/imc2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc3": {
+              "route": "petroleum/pri/imc3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land1": {
+              "route": "petroleum/pri/land1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land2": {
+              "route": "petroleum/pri/land2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land3": {
+              "route": "petroleum/pri/land3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ipct": {
+              "route": "petroleum/pri/ipct",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "crd": {
+          "route": "petroleum/crd",
+          "name": "Petroleum, Crude Reserves and Production",
+          "description": "Petroleum, Crude Reserves and Production",
+          "children": {
+            "pres": {
+              "route": "petroleum/crd/pres",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "cplc": {
+              "route": "petroleum/crd/cplc",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "nprod": {
+              "route": "petroleum/crd/nprod",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "crpdn": {
+              "route": "petroleum/crd/crpdn",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "api": {
+              "route": "petroleum/crd/api",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "gom": {
+              "route": "petroleum/crd/gom",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "drill": {
+              "route": "petroleum/crd/drill",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellend": {
+              "route": "petroleum/crd/wellend",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "seis": {
+              "route": "petroleum/crd/seis",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellfoot": {
+              "route": "petroleum/crd/wellfoot",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "welldep": {
+              "route": "petroleum/crd/welldep",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellcost": {
+              "route": "petroleum/crd/wellcost",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "pnp": {
+          "route": "petroleum/pnp",
+          "name": "Petroleum, Refining and Processing",
+          "description": "Petroleum, Refining and Processing",
+          "children": {
+            "wiup": {
+              "route": "petroleum/pnp/wiup",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wprodrb": {
+              "route": "petroleum/pnp/wprodrb",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wprodr": {
+              "route": "petroleum/pnp/wprodr",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wprodb": {
+              "route": "petroleum/pnp/wprodb",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wprode": {
+              "route": "petroleum/pnp/wprode",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "inpt": {
+              "route": "petroleum/pnp/inpt",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "inpt2": {
+              "route": "petroleum/pnp/inpt2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "inpt3": {
+              "route": "petroleum/pnp/inpt3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refp": {
+              "route": "petroleum/pnp/refp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refp2": {
+              "route": "petroleum/pnp/refp2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refp3": {
+              "route": "petroleum/pnp/refp3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capbio": {
+              "route": "petroleum/pnp/capbio",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "oxy": {
+              "route": "petroleum/pnp/oxy",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "feedbiofuel": {
+              "route": "petroleum/pnp/feedbiofuel",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "unc": {
+              "route": "petroleum/pnp/unc",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "crq": {
+              "route": "petroleum/pnp/crq",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dwns": {
+              "route": "petroleum/pnp/dwns",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "pct": {
+              "route": "petroleum/pnp/pct",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "cap1": {
+              "route": "petroleum/pnp/cap1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capchg": {
+              "route": "petroleum/pnp/capchg",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capprod": {
+              "route": "petroleum/pnp/capprod",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capfuel": {
+              "route": "petroleum/pnp/capfuel",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "feedng": {
+              "route": "petroleum/pnp/feedng",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capwork": {
+              "route": "petroleum/pnp/capwork",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "capshell": {
+              "route": "petroleum/pnp/capshell",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "caprec": {
+              "route": "petroleum/pnp/caprec",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "bioplfuel": {
+              "route": "petroleum/pnp/bioplfuel",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "gp": {
+              "route": "petroleum/pnp/gp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "move": {
+          "route": "petroleum/move",
+          "name": "Petroleum, Imports/Exports and Movements",
+          "description": "Petroleum, Imports/Exports and Movements",
+          "children": {
+            "expcp": {
+              "route": "petroleum/move/expcp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wkly": {
+              "route": "petroleum/move/wkly",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wimpc": {
+              "route": "petroleum/move/wimpc",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imp": {
+              "route": "petroleum/move/imp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imp2": {
+              "route": "petroleum/move/imp2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "res": {
+              "route": "petroleum/move/res",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "exp": {
+              "route": "petroleum/move/exp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "expc": {
+              "route": "petroleum/move/expc",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "neti": {
+              "route": "petroleum/move/neti",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc1": {
+              "route": "petroleum/move/imc1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc2": {
+              "route": "petroleum/move/imc2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "imc3": {
+              "route": "petroleum/move/imc3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land1": {
+              "route": "petroleum/move/land1",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land2": {
+              "route": "petroleum/move/land2",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "land3": {
+              "route": "petroleum/move/land3",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ipct": {
+              "route": "petroleum/move/ipct",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ptb": {
+              "route": "petroleum/move/ptb",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "pipe": {
+              "route": "petroleum/move/pipe",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "tb": {
+              "route": "petroleum/move/tb",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "netr": {
+              "route": "petroleum/move/netr",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "impcus": {
+              "route": "petroleum/move/impcus",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "impcp": {
+              "route": "petroleum/move/impcp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "rail": {
+              "route": "petroleum/move/rail",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "railNA": {
+              "route": "petroleum/move/railNA",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "stoc": {
+          "route": "petroleum/stoc",
+          "name": "Petroleum, Stocks",
+          "description": "Petroleum, Stocks",
+          "children": {
+            "ts": {
+              "route": "petroleum/stoc/ts",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wstk": {
+              "route": "petroleum/stoc/wstk",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "typ": {
+              "route": "petroleum/stoc/typ",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "st": {
+              "route": "petroleum/stoc/st",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "cu": {
+              "route": "petroleum/stoc/cu",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ref": {
+              "route": "petroleum/stoc/ref",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "gp": {
+              "route": "petroleum/stoc/gp",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "cons": {
+          "route": "petroleum/cons",
+          "name": "Petroleum, Consumption/Sales",
+          "description": "Petroleum, Consumption/Sales",
+          "children": {
+            "wpsup": {
+              "route": "petroleum/cons/wpsup",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly",
+                "four-week-average"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "psup": {
+              "route": "petroleum/cons/psup",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "prim": {
+              "route": "petroleum/cons/prim",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refmg": {
+              "route": "petroleum/cons/refmg",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refoth": {
+              "route": "petroleum/cons/refoth",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "refres": {
+              "route": "petroleum/cons/refres",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821dst": {
+              "route": "petroleum/cons/821dst",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821dsta": {
+              "route": "petroleum/cons/821dsta",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821rsd": {
+              "route": "petroleum/cons/821rsd",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821rsda": {
+              "route": "petroleum/cons/821rsda",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821ker": {
+              "route": "petroleum/cons/821ker",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821kera": {
+              "route": "petroleum/cons/821kera",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821use": {
+              "route": "petroleum/cons/821use",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "821usea": {
+              "route": "petroleum/cons/821usea",
+              "name": null,
+              "description": "EIA petroleum gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "petroleum/sum/b100",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/sum/snd",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/sum/sndw",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/sum/crdsnd",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/sum/mkt",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/gnd",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "weekly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/spt",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "weekly",
+        "annual",
+        "daily"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/fut",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "weekly",
+        "annual",
+        "daily"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/wfr",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "weekly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/refmg",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/refmg2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/refoth",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/allmg",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/dist",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/prop",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/resid",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/dfp1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/dfp2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/dfp3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/rac2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/imc1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/imc2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/imc3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/land1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/land2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/land3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pri/ipct",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/pres",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/cplc",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/nprod",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/crpdn",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/api",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/gom",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/drill",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/wellend",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/seis",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/wellfoot",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/welldep",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/crd/wellcost",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/wiup",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/wprodrb",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/wprodr",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/wprodb",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/wprode",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/inpt",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/inpt2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/inpt3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/refp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/refp2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/refp3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capbio",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/oxy",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/feedbiofuel",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/unc",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/crq",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/dwns",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/pct",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/cap1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capchg",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capprod",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capfuel",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/feedng",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capwork",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/capshell",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/caprec",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/bioplfuel",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/pnp/gp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/expcp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/wkly",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/wimpc",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/imp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/imp2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/res",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/exp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/expc",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/neti",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/imc1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/imc2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/imc3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/land1",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/land2",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/land3",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/ipct",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/ptb",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/pipe",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/tb",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/netr",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/impcus",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/impcp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/rail",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/move/railNA",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/ts",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/wstk",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/typ",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/st",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/cu",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/ref",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/stoc/gp",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/wpsup",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly",
+        "four-week-average"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/psup",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/prim",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/refmg",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/refoth",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/refres",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821dst",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821dsta",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821rsd",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821rsda",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821ker",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821kera",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821use",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "petroleum/cons/821usea",
+      "name": null,
+      "description": "EIA petroleum gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    }
+  ]
+}

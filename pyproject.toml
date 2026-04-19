@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pygasflow"
+name = "eiapy"
 dynamic = ["version"]
-description = "Clean Python access to U.S. EIA natural gas data"
+description = "Python client for the U.S. EIA Open Data API v2"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "pygasflow contributors" }]
-keywords = ["eia", "natural-gas", "energy", "pandas", "api"]
+authors = [{ name = "eiapy contributors" }]
+keywords = ["eia", "energy", "natural-gas", "electricity", "petroleum", "coal", "pandas", "api"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
@@ -33,10 +33,11 @@ dev = [
 ]
 
 [tool.hatch.version]
-path = "pygasflow/__init__.py"
+path = "eiapy/__init__.py"
 
 [tool.hatch.build.targets.wheel]
-packages = ["pygasflow"]
+packages = ["eiapy"]
+artifacts = ["eiapy/_route_data/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

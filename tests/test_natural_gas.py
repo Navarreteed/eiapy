@@ -1,4 +1,4 @@
-"""Integration-style tests for pygasflow using mocked HTTP."""
+"""Tests for natural gas convenience functions (migrated from test_pygasflow.py)."""
 
 import json
 from urllib.parse import parse_qs, urlparse
@@ -7,8 +7,8 @@ import pandas as pd
 import pytest
 import responses
 
-import pygasflow
-from pygasflow import (
+import eiapy
+from eiapy import (
     MissingAPIKeyError,
     AuthenticationError,
     NotFoundError,
@@ -39,7 +39,7 @@ def test_missing_api_key_raises(monkeypatch):
 
 def test_explicit_api_key_overrides_env(monkeypatch):
     monkeypatch.setenv("EIA_API_KEY", "ENV_KEY")
-    from pygasflow.client import EIAClient
+    from eiapy.client import EIAClient
 
     assert EIAClient(api_key="EXPLICIT").api_key == "EXPLICIT"
     assert EIAClient().api_key == "ENV_KEY"
@@ -76,7 +76,6 @@ def test_get_storage_with_region(base_url):
     )
     df = get_storage(region="east", frequency="weekly")
     assert len(df) == 1
-    # Confirm the duoarea facet was sent correctly
     sent = parse_qs(urlparse(responses.calls[0].request.url).query)
     assert sent["facets[duoarea][]"] == ["R31"]
 
@@ -87,13 +86,12 @@ def test_get_storage_invalid_region():
 
 
 # ---------------------------------------------------------------------------
-# Pagination — the critical requirement
+# Pagination
 # ---------------------------------------------------------------------------
 
 
 @responses.activate
 def test_pagination_fetches_all_pages(base_url):
-    """Client must paginate until a partial page is returned."""
     full = [{"period": f"2024-{i:04d}", "value": str(i)} for i in range(5000)]
     partial = [{"period": "tail", "value": "1"}]
 
@@ -171,7 +169,7 @@ def test_get_available_series(base_url):
 
 
 # ---------------------------------------------------------------------------
-# state=None / no-filter — must send NO duoarea facet
+# state=None / no-filter
 # ---------------------------------------------------------------------------
 
 _ALL_STATE_ROWS = [
