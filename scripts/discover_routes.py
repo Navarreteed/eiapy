@@ -19,8 +19,8 @@ import os
 import sys
 from pathlib import Path
 
-from pygasflow.client import EIAClient
-from pygasflow.exceptions import EIAError
+from eiapy.client import EIAClient
+from eiapy.exceptions import EIAError
 
 
 def _load_dotenv() -> None:
@@ -82,10 +82,24 @@ def crawl(root: str = "natural-gas", max_depth: int = 6) -> dict:
     return {"tree": tree, "leaves": leaves}
 
 
-def main() -> None:
-    root = sys.argv[1] if len(sys.argv) > 1 else "natural-gas"
-    result = crawl(root)
+ALL_CATEGORIES = [
+    "coal",
+    "crude-oil-imports",
+    "densified-biomass",
+    "electricity",
+    "international",
+    "natural-gas",
+    "nuclear-outages",
+    "petroleum",
+    "seds",
+    "steo",
+    "total-energy",
+    "aeo",
+    "ieo",
+]
 
+
+def _print_result(root: str, result: dict) -> None:
     print(f"\nDiscovered {len(result['leaves'])} leaf routes under '{root}':\n")
     print("=" * 78)
     for leaf in result["leaves"]:
@@ -101,9 +115,35 @@ def main() -> None:
             more = "" if len(leaf["data_columns"]) <= 6 else f" (+{len(leaf['data_columns']) - 6} more)"
             print(f"  data:      {', '.join(cols)}{more}")
 
-    out = Path(__file__).resolve().parent / f"discovered_{root.replace('/', '_')}.json"
-    out.write_text(json.dumps(result, indent=2, default=str))
-    print(f"\nFull tree written to {out}")
+
+def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Discover EIA API routes")
+    parser.add_argument("root", nargs="?", default="natural-gas",
+                        help="Root category to crawl (default: natural-gas)")
+    parser.add_argument("--all", action="store_true",
+                        help="Crawl all known EIA categories")
+    parser.add_argument("--output-dir", type=str, default=None,
+                        help="Directory to write JSON files (default: scripts/)")
+    args = parser.parse_args()
+
+    out_dir = Path(args.output_dir) if args.output_dir else Path(__file__).resolve().parent
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    categories = ALL_CATEGORIES if args.all else [args.root]
+
+    for root in categories:
+        print(f"\n{'='*78}")
+        print(f"Crawling: {root}")
+        print(f"{'='*78}")
+        result = crawl(root)
+        _print_result(root, result)
+
+        slug = root.replace("-", "_")
+        out = out_dir / f"{slug}.json"
+        out.write_text(json.dumps(result, indent=2, default=str))
+        print(f"\nWritten to {out}")
 
 
 if __name__ == "__main__":

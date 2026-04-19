@@ -1,0 +1,275 @@
+{
+  "tree": {
+    "densified-biomass": {
+      "route": "densified-biomass",
+      "name": "Densified Biomass",
+      "description": "EIA densified biomass data",
+      "children": {
+        "capacity-by-region": {
+          "route": "densified-biomass/capacity-by-region",
+          "name": "Capacity by Region",
+          "description": "Densified biomass capacity includes number of facilities \r\n        and number of employees.  Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "number-of-facilities",
+            "capacity",
+            "number-of-fte-employees"
+          ],
+          "facets": [
+            "region"
+          ]
+        },
+        "sales-and-price-by-region": {
+          "route": "densified-biomass/sales-and-price-by-region",
+          "name": "Sales and Price by Region",
+          "description": "Densified biomass sales and average price by region.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "quantity",
+            "average-price"
+          ],
+          "facets": [
+            "region"
+          ]
+        },
+        "export-sales-and-price": {
+          "route": "densified-biomass/export-sales-and-price",
+          "name": "Export Sales and Price",
+          "description": "Densified biomass export prices and quantity.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "quantity",
+            "average-price"
+          ],
+          "facets": []
+        },
+        "feedstocks-and-cost": {
+          "route": "densified-biomass/feedstocks-and-cost",
+          "name": "Feedstocks and Costs",
+          "description": "Densified biomass feedstocks and cost by type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "quantity",
+            "cost"
+          ],
+          "facets": [
+            "fuelTypeId"
+          ]
+        },
+        "production-by-region": {
+          "route": "densified-biomass/production-by-region",
+          "name": "Production by Region",
+          "description": "Densified biomass production by region and fuel type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "production"
+          ],
+          "facets": [
+            "fuelTypeId",
+            "region"
+          ]
+        },
+        "characteristics-by-region": {
+          "route": "densified-biomass/characteristics-by-region",
+          "name": "Characteristics by Region",
+          "description": "Densified biomass characteristics includes \r\n        fuel type, average ash, heat, and moisture content by region. \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "average-heat",
+            "average-ash",
+            "average-moisture"
+          ],
+          "facets": [
+            "fuelTypeId",
+            "region"
+          ]
+        },
+        "inventories-by-region": {
+          "route": "densified-biomass/inventories-by-region",
+          "name": "Inventories by Region",
+          "description": "Densified biomass inventories by region and fuel type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "monthly"
+          ],
+          "data_columns": [
+            "inventory"
+          ],
+          "facets": [
+            "fuelTypeId",
+            "region"
+          ]
+        },
+        "wood-pellet-plants": {
+          "route": "densified-biomass/wood-pellet-plants",
+          "name": "Wood Pellet Plant Capacity",
+          "description": "Details on wood pellet plants includes region, respondent, \r\n    capacity, and status.  Source: EIA-63C  Report:  www.eia.gov/biomass/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "capacity"
+          ],
+          "facets": [
+            "region",
+            "respondent",
+            "stateId",
+            "status"
+          ]
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "densified-biomass/capacity-by-region",
+      "name": "Capacity by Region",
+      "description": "Densified biomass capacity includes number of facilities \r\n        and number of employees.  Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "number-of-facilities",
+        "capacity",
+        "number-of-fte-employees"
+      ],
+      "facets": [
+        "region"
+      ]
+    },
+    {
+      "route": "densified-biomass/sales-and-price-by-region",
+      "name": "Sales and Price by Region",
+      "description": "Densified biomass sales and average price by region.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "quantity",
+        "average-price"
+      ],
+      "facets": [
+        "region"
+      ]
+    },
+    {
+      "route": "densified-biomass/export-sales-and-price",
+      "name": "Export Sales and Price",
+      "description": "Densified biomass export prices and quantity.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "quantity",
+        "average-price"
+      ],
+      "facets": []
+    },
+    {
+      "route": "densified-biomass/feedstocks-and-cost",
+      "name": "Feedstocks and Costs",
+      "description": "Densified biomass feedstocks and cost by type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "quantity",
+        "cost"
+      ],
+      "facets": [
+        "fuelTypeId"
+      ]
+    },
+    {
+      "route": "densified-biomass/production-by-region",
+      "name": "Production by Region",
+      "description": "Densified biomass production by region and fuel type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "production"
+      ],
+      "facets": [
+        "fuelTypeId",
+        "region"
+      ]
+    },
+    {
+      "route": "densified-biomass/characteristics-by-region",
+      "name": "Characteristics by Region",
+      "description": "Densified biomass characteristics includes \r\n        fuel type, average ash, heat, and moisture content by region. \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "average-heat",
+        "average-ash",
+        "average-moisture"
+      ],
+      "facets": [
+        "fuelTypeId",
+        "region"
+      ]
+    },
+    {
+      "route": "densified-biomass/inventories-by-region",
+      "name": "Inventories by Region",
+      "description": "Densified biomass inventories by region and fuel type.  \r\n        Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "inventory"
+      ],
+      "facets": [
+        "fuelTypeId",
+        "region"
+      ]
+    },
+    {
+      "route": "densified-biomass/wood-pellet-plants",
+      "name": "Wood Pellet Plant Capacity",
+      "description": "Details on wood pellet plants includes region, respondent, \r\n    capacity, and status.  Source: EIA-63C  Report:  www.eia.gov/biomass/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "capacity"
+      ],
+      "facets": [
+        "region",
+        "respondent",
+        "stateId",
+        "status"
+      ]
+    }
+  ]
+}

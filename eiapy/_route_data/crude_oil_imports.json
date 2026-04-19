@@ -1,0 +1,46 @@
+{
+  "tree": {
+    "crude-oil-imports": {
+      "route": "crude-oil-imports",
+      "name": "Crude Oil Imports",
+      "description": "Crude oil imports by country to destination, \r\n        includes type, grade, quantity.  Source: EIA-814  Interactive data \r\n        product:  www.eia.gov/petroleum/imports/companylevel/",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity"
+      ],
+      "facets": [
+        "originId",
+        "originType",
+        "destinationId",
+        "destinationType",
+        "gradeId"
+      ]
+    }
+  },
+  "leaves": [
+    {
+      "route": "crude-oil-imports",
+      "name": "Crude Oil Imports",
+      "description": "Crude oil imports by country to destination, \r\n        includes type, grade, quantity.  Source: EIA-814  Interactive data \r\n        product:  www.eia.gov/petroleum/imports/companylevel/",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity"
+      ],
+      "facets": [
+        "originId",
+        "originType",
+        "destinationId",
+        "destinationType",
+        "gradeId"
+      ]
+    }
+  ]
+}
