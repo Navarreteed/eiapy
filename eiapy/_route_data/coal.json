@@ -1,0 +1,594 @@
+{
+  "tree": {
+    "coal": {
+      "route": "coal",
+      "name": "Coal",
+      "description": "EIA coal energy data",
+      "children": {
+        "shipments": {
+          "route": "coal/shipments",
+          "name": "Coal Shipments",
+          "description": "EIA shipments of coal data",
+          "children": {
+            "mine-state-aggregates": {
+              "route": "coal/shipments/mine-state-aggregates",
+              "name": "Mine State Aggregates",
+              "description": "Coal shipments aggregated at state-level data, including price, \r\n        quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  \r\n        https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "heat-content",
+                "sulfur-content",
+                "ash-content"
+              ],
+              "facets": [
+                "mineStateId",
+                "coalRankId"
+              ]
+            },
+            "receipts": {
+              "route": "coal/shipments/receipts",
+              "name": "Receipts",
+              "description": "Coal shipment detailed by reciepient data, including transportation type, \r\n        supplier, mine, coal basin, county, state, rank, contract type, price, quantity, and quality. \r\n        Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "heat-content",
+                "sulfur-content",
+                "ash-content"
+              ],
+              "facets": [
+                "plantStateId",
+                "mineStateId",
+                "mineTypeId",
+                "mineMSHAId",
+                "mineBasinId",
+                "mineCountyId",
+                "contractType",
+                "transportationMode",
+                "coalSupplier",
+                "coalRankId",
+                "plantId"
+              ]
+            },
+            "mine-aggregates": {
+              "route": "coal/shipments/mine-aggregates",
+              "name": "Mine Aggregates",
+              "description": "Coal shipments aggregated at mine-level data, \r\n        including price, quantity, quality, and rank.  Source: EIA Form 7A and \r\n        MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "heat-content",
+                "sulfur-content",
+                "ash-content"
+              ],
+              "facets": [
+                "mineStateId",
+                "mineMSHAId",
+                "coalRankId"
+              ]
+            },
+            "plant-state-aggregates": {
+              "route": "coal/shipments/plant-state-aggregates",
+              "name": "Plant State Aggregates",
+              "description": "Coal reciepts aggregated at state-level data, including price, \r\n        quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive \r\n        browser:  https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "heat-content",
+                "sulfur-content",
+                "ash-content"
+              ],
+              "facets": [
+                "plantStateId",
+                "coalRankId"
+              ]
+            },
+            "plant-aggregates": {
+              "route": "coal/shipments/plant-aggregates",
+              "name": "Plant Aggregates",
+              "description": "Coal reciepts aggregated to plant-level data, \n        including price, quantity, quality, and rank.  Source: EIA Form 7A \n            and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "sulfur-content",
+                "ash-content",
+                "heat-content"
+              ],
+              "facets": [
+                "location",
+                "plant",
+                "rank"
+              ]
+            },
+            "by-mine-by-plant": {
+              "route": "coal/shipments/by-mine-by-plant",
+              "name": "By Mine, By Plant",
+              "description": "Coal shipments from mine- to plant-level data, including price, quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+              "leaf": true,
+              "frequency": [
+                "quarterly",
+                "annual"
+              ],
+              "data_columns": [
+                "quantity",
+                "price",
+                "sulfur-content",
+                "ash-content",
+                "heat-content"
+              ],
+              "facets": [
+                "mineStateId",
+                "mineMSHAId",
+                "coalSupplier",
+                "plantStateId",
+                "plantId",
+                "coalType"
+              ]
+            }
+          }
+        },
+        "consumption-and-quality": {
+          "route": "coal/consumption-and-quality",
+          "name": "Consumption and Quality",
+          "description": "Coal consumption and quality data by state and sector, \n            including price, reciepts, heat content, sulfur content, ash content, and stocks. \n            Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "quarterly",
+            "annual"
+          ],
+          "data_columns": [
+            "receipts",
+            "consumption",
+            "stocks",
+            "price",
+            "heat-content",
+            "sulfur-content",
+            "ash-content"
+          ],
+          "facets": [
+            "location",
+            "sector"
+          ]
+        },
+        "aggregate-production": {
+          "route": "coal/aggregate-production",
+          "name": "Aggregate Production",
+          "description": "Coal state aggregated data by mine type, includes production, \r\n        productivity, labor hours, employees, and coal rank.  Source: EIA Form 7A and MSHA Form \r\n        7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "production",
+            "number-of-mines",
+            "labor-hours",
+            "average-employees",
+            "productivity"
+          ],
+          "facets": [
+            "stateRegionId",
+            "coalRankId",
+            "mineTypeId"
+          ]
+        },
+        "exports-imports-quantity-price": {
+          "route": "coal/exports-imports-quantity-price",
+          "name": "Exports\\Imports Quantity\\Price",
+          "description": "Coal import/export data, including price, quantity, country, \r\n        rank, and customs district.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive \r\n        browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "quarterly",
+            "annual"
+          ],
+          "data_columns": [
+            "quantity",
+            "price"
+          ],
+          "facets": [
+            "exportImportType",
+            "coalRankId",
+            "countryId",
+            "customsDistrictId"
+          ]
+        },
+        "market-sales-price": {
+          "route": "coal/market-sales-price",
+          "name": "Market Sales Price",
+          "description": "Coal market sales prices and amounts by mine types for \r\n        regions and states (unless withheld for pricing protections).  Source: EIA Form \r\n            7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "sales",
+            "price"
+          ],
+          "facets": [
+            "stateRegionId",
+            "marketTypeId"
+          ]
+        },
+        "mine-production": {
+          "route": "coal/mine-production",
+          "name": "Mine Production",
+          "description": "Coal mine-level data, including production, region, state, \r\n        county, rank, status, type, name and description.  Source: EIA Form 7A and MSHA \r\n        Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "production",
+            "labor-hours",
+            "average-employees",
+            "refuse-flag",
+            "latitude",
+            "longitude",
+            "operating-company",
+            "operating-company-address"
+          ],
+          "facets": [
+            "mineMSHAId",
+            "stateId",
+            "regionId",
+            "supplyRegionId",
+            "censusRegionId",
+            "mississippiRegionId",
+            "mineCountyId",
+            "coalRankId",
+            "mineTypeId",
+            "mineStatusId"
+          ]
+        },
+        "price-by-rank": {
+          "route": "coal/price-by-rank",
+          "name": "Price by Rank",
+          "description": "Coal prices by rank data for region and state.  \r\n        Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser: \r\n        https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "price"
+          ],
+          "facets": [
+            "stateRegionId",
+            "coalRankId"
+          ]
+        },
+        "reserves-capacity": {
+          "route": "coal/reserves-capacity",
+          "name": "Reserves Capacity",
+          "description": "Coal capacity data, including productive capacity, stocks, \r\n        and recoverable reserves by state, region and mine type.  Source: EIA Form 7A and \r\n        MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+          "leaf": true,
+          "frequency": [
+            "annual"
+          ],
+          "data_columns": [
+            "productive-capacity",
+            "recoverable-reserves",
+            "producer-distributor-stocks"
+          ],
+          "facets": [
+            "stateId",
+            "mineTypeId"
+          ]
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "coal/shipments/mine-state-aggregates",
+      "name": "Mine State Aggregates",
+      "description": "Coal shipments aggregated at state-level data, including price, \r\n        quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  \r\n        https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "heat-content",
+        "sulfur-content",
+        "ash-content"
+      ],
+      "facets": [
+        "mineStateId",
+        "coalRankId"
+      ]
+    },
+    {
+      "route": "coal/shipments/receipts",
+      "name": "Receipts",
+      "description": "Coal shipment detailed by reciepient data, including transportation type, \r\n        supplier, mine, coal basin, county, state, rank, contract type, price, quantity, and quality. \r\n        Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "heat-content",
+        "sulfur-content",
+        "ash-content"
+      ],
+      "facets": [
+        "plantStateId",
+        "mineStateId",
+        "mineTypeId",
+        "mineMSHAId",
+        "mineBasinId",
+        "mineCountyId",
+        "contractType",
+        "transportationMode",
+        "coalSupplier",
+        "coalRankId",
+        "plantId"
+      ]
+    },
+    {
+      "route": "coal/shipments/mine-aggregates",
+      "name": "Mine Aggregates",
+      "description": "Coal shipments aggregated at mine-level data, \r\n        including price, quantity, quality, and rank.  Source: EIA Form 7A and \r\n        MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "heat-content",
+        "sulfur-content",
+        "ash-content"
+      ],
+      "facets": [
+        "mineStateId",
+        "mineMSHAId",
+        "coalRankId"
+      ]
+    },
+    {
+      "route": "coal/shipments/plant-state-aggregates",
+      "name": "Plant State Aggregates",
+      "description": "Coal reciepts aggregated at state-level data, including price, \r\n        quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive \r\n        browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "heat-content",
+        "sulfur-content",
+        "ash-content"
+      ],
+      "facets": [
+        "plantStateId",
+        "coalRankId"
+      ]
+    },
+    {
+      "route": "coal/shipments/plant-aggregates",
+      "name": "Plant Aggregates",
+      "description": "Coal reciepts aggregated to plant-level data, \n        including price, quantity, quality, and rank.  Source: EIA Form 7A \n            and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "sulfur-content",
+        "ash-content",
+        "heat-content"
+      ],
+      "facets": [
+        "location",
+        "plant",
+        "rank"
+      ]
+    },
+    {
+      "route": "coal/shipments/by-mine-by-plant",
+      "name": "By Mine, By Plant",
+      "description": "Coal shipments from mine- to plant-level data, including price, quantity, quality, and rank.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price",
+        "sulfur-content",
+        "ash-content",
+        "heat-content"
+      ],
+      "facets": [
+        "mineStateId",
+        "mineMSHAId",
+        "coalSupplier",
+        "plantStateId",
+        "plantId",
+        "coalType"
+      ]
+    },
+    {
+      "route": "coal/consumption-and-quality",
+      "name": "Consumption and Quality",
+      "description": "Coal consumption and quality data by state and sector, \n            including price, reciepts, heat content, sulfur content, ash content, and stocks. \n            Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "receipts",
+        "consumption",
+        "stocks",
+        "price",
+        "heat-content",
+        "sulfur-content",
+        "ash-content"
+      ],
+      "facets": [
+        "location",
+        "sector"
+      ]
+    },
+    {
+      "route": "coal/aggregate-production",
+      "name": "Aggregate Production",
+      "description": "Coal state aggregated data by mine type, includes production, \r\n        productivity, labor hours, employees, and coal rank.  Source: EIA Form 7A and MSHA Form \r\n        7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "production",
+        "number-of-mines",
+        "labor-hours",
+        "average-employees",
+        "productivity"
+      ],
+      "facets": [
+        "stateRegionId",
+        "coalRankId",
+        "mineTypeId"
+      ]
+    },
+    {
+      "route": "coal/exports-imports-quantity-price",
+      "name": "Exports\\Imports Quantity\\Price",
+      "description": "Coal import/export data, including price, quantity, country, \r\n        rank, and customs district.  Source: EIA Form 7A and MSHA Form 7000-2.  Interactive \r\n        browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "quarterly",
+        "annual"
+      ],
+      "data_columns": [
+        "quantity",
+        "price"
+      ],
+      "facets": [
+        "exportImportType",
+        "coalRankId",
+        "countryId",
+        "customsDistrictId"
+      ]
+    },
+    {
+      "route": "coal/market-sales-price",
+      "name": "Market Sales Price",
+      "description": "Coal market sales prices and amounts by mine types for \r\n        regions and states (unless withheld for pricing protections).  Source: EIA Form \r\n            7A and MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "sales",
+        "price"
+      ],
+      "facets": [
+        "stateRegionId",
+        "marketTypeId"
+      ]
+    },
+    {
+      "route": "coal/mine-production",
+      "name": "Mine Production",
+      "description": "Coal mine-level data, including production, region, state, \r\n        county, rank, status, type, name and description.  Source: EIA Form 7A and MSHA \r\n        Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "production",
+        "labor-hours",
+        "average-employees",
+        "refuse-flag",
+        "latitude",
+        "longitude",
+        "operating-company",
+        "operating-company-address"
+      ],
+      "facets": [
+        "mineMSHAId",
+        "stateId",
+        "regionId",
+        "supplyRegionId",
+        "censusRegionId",
+        "mississippiRegionId",
+        "mineCountyId",
+        "coalRankId",
+        "mineTypeId",
+        "mineStatusId"
+      ]
+    },
+    {
+      "route": "coal/price-by-rank",
+      "name": "Price by Rank",
+      "description": "Coal prices by rank data for region and state.  \r\n        Source: EIA Form 7A and MSHA Form 7000-2.  Interactive browser: \r\n        https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "price"
+      ],
+      "facets": [
+        "stateRegionId",
+        "coalRankId"
+      ]
+    },
+    {
+      "route": "coal/reserves-capacity",
+      "name": "Reserves Capacity",
+      "description": "Coal capacity data, including productive capacity, stocks, \r\n        and recoverable reserves by state, region and mine type.  Source: EIA Form 7A and \r\n        MSHA Form 7000-2.  Interactive browser:  https://www.eia.gov/coal/data/browser/",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "productive-capacity",
+        "recoverable-reserves",
+        "producer-distributor-stocks"
+      ],
+      "facets": [
+        "stateId",
+        "mineTypeId"
+      ]
+    }
+  ]
+}

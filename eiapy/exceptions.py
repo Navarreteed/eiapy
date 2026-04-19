@@ -1,8 +1,8 @@
-"""Exceptions raised by pygasflow."""
+"""Exceptions raised by eiapy."""
 
 
 class EIAError(Exception):
-    """Base exception for all pygasflow errors."""
+    """Base exception for all eiapy errors."""
 
 
 class MissingAPIKeyError(EIAError):

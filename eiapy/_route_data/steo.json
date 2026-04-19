@@ -1,0 +1,40 @@
+{
+  "tree": {
+    "steo": {
+      "route": "steo",
+      "name": "Short Term Energy Outlook",
+      "description": "Monthly short term (18 month) projections using STEO model.  \r\n        Report and interactive projection data browser:  STEO (www.eia.gov/steo/)",
+      "leaf": true,
+      "frequency": [
+        "annual",
+        "quarterly",
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "seriesId"
+      ]
+    }
+  },
+  "leaves": [
+    {
+      "route": "steo",
+      "name": "Short Term Energy Outlook",
+      "description": "Monthly short term (18 month) projections using STEO model.  \r\n        Report and interactive projection data browser:  STEO (www.eia.gov/steo/)",
+      "leaf": true,
+      "frequency": [
+        "annual",
+        "quarterly",
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "seriesId"
+      ]
+    }
+  ]
+}

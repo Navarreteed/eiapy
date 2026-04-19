@@ -1,0 +1,2018 @@
+{
+  "tree": {
+    "natural-gas": {
+      "route": "natural-gas",
+      "name": "Natural Gas",
+      "description": "EIA natural gas survey data",
+      "children": {
+        "sum": {
+          "route": "natural-gas/sum",
+          "name": "Natural Gas, Summary",
+          "description": "Natural Gas, Summary",
+          "children": {
+            "snd": {
+              "route": "natural-gas/sum/snd",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "lsum": {
+              "route": "natural-gas/sum/lsum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "sndm": {
+              "route": "natural-gas/sum/sndm",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "pri": {
+          "route": "natural-gas/pri",
+          "name": "Natural Gas, Prices",
+          "description": "Natural Gas, Prices",
+          "children": {
+            "sum": {
+              "route": "natural-gas/pri/sum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "fut": {
+              "route": "natural-gas/pri/fut",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "weekly",
+                "annual",
+                "daily"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "rescom": {
+              "route": "natural-gas/pri/rescom",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "enr": {
+          "route": "natural-gas/enr",
+          "name": "Natural Gas, Exploration and Reserves",
+          "description": "Natural Gas, Exploration and Reserves",
+          "children": {
+            "sum": {
+              "route": "natural-gas/enr/sum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "cplc": {
+              "route": "natural-gas/enr/cplc",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "dry": {
+              "route": "natural-gas/enr/dry",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wals": {
+              "route": "natural-gas/enr/wals",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "nang": {
+              "route": "natural-gas/enr/nang",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "adng": {
+              "route": "natural-gas/enr/adng",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ngl": {
+              "route": "natural-gas/enr/ngl",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ngpl": {
+              "route": "natural-gas/enr/ngpl",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "lc": {
+              "route": "natural-gas/enr/lc",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "coalbed": {
+              "route": "natural-gas/enr/coalbed",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "shalegas": {
+              "route": "natural-gas/enr/shalegas",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "deep": {
+              "route": "natural-gas/enr/deep",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "nprod": {
+              "route": "natural-gas/enr/nprod",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "drill": {
+              "route": "natural-gas/enr/drill",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellend": {
+              "route": "natural-gas/enr/wellend",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "seis": {
+              "route": "natural-gas/enr/seis",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellfoot": {
+              "route": "natural-gas/enr/wellfoot",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "welldep": {
+              "route": "natural-gas/enr/welldep",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wellcost": {
+              "route": "natural-gas/enr/wellcost",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "prod": {
+          "route": "natural-gas/prod",
+          "name": "Natural Gas, Production",
+          "description": "Natural Gas, Production",
+          "children": {
+            "oilwells": {
+              "route": "natural-gas/prod/oilwells",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "sum": {
+              "route": "natural-gas/prod/sum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "whv": {
+              "route": "natural-gas/prod/whv",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "off": {
+              "route": "natural-gas/prod/off",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "deep": {
+              "route": "natural-gas/prod/deep",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ngpl": {
+              "route": "natural-gas/prod/ngpl",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "lc": {
+              "route": "natural-gas/prod/lc",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "coalbed": {
+              "route": "natural-gas/prod/coalbed",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "shalegas": {
+              "route": "natural-gas/prod/shalegas",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ss": {
+              "route": "natural-gas/prod/ss",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "wells": {
+              "route": "natural-gas/prod/wells",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "pp": {
+              "route": "natural-gas/prod/pp",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "move": {
+          "route": "natural-gas/move",
+          "name": "Natural Gas, Imports and Exports/Pipelines",
+          "description": "Natural Gas, Imports and Exports/Pipelines",
+          "children": {
+            "impc": {
+              "route": "natural-gas/move/impc",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "expc": {
+              "route": "natural-gas/move/expc",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "state": {
+              "route": "natural-gas/move/state",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "poe1": {
+              "route": "natural-gas/move/poe1",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "poe2": {
+              "route": "natural-gas/move/poe2",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "ist": {
+              "route": "natural-gas/move/ist",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "stor": {
+          "route": "natural-gas/stor",
+          "name": "Natural Gas, Storage",
+          "description": "Natural Gas, Storage",
+          "children": {
+            "wkly": {
+              "route": "natural-gas/stor/wkly",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "weekly"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "sum": {
+              "route": "natural-gas/stor/sum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "type": {
+              "route": "natural-gas/stor/type",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "lng": {
+              "route": "natural-gas/stor/lng",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "cap": {
+              "route": "natural-gas/stor/cap",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        },
+        "cons": {
+          "route": "natural-gas/cons",
+          "name": "Natural Gas, Consumption / End Use",
+          "description": "Natural Gas, Consumption / End Use",
+          "children": {
+            "sum": {
+              "route": "natural-gas/cons/sum",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "num": {
+              "route": "natural-gas/cons/num",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "pns": {
+              "route": "natural-gas/cons/pns",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "acct": {
+              "route": "natural-gas/cons/acct",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            },
+            "heat": {
+              "route": "natural-gas/cons/heat",
+              "name": null,
+              "description": "EIA natural gas survey data",
+              "leaf": true,
+              "frequency": [
+                "monthly",
+                "annual"
+              ],
+              "data_columns": [
+                "value"
+              ],
+              "facets": [
+                "duoarea",
+                "product",
+                "process",
+                "series"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "natural-gas/sum/snd",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/sum/lsum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/sum/sndm",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/pri/sum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/pri/fut",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "weekly",
+        "annual",
+        "daily"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/pri/rescom",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/sum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/cplc",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/dry",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/wals",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/nang",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/adng",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/ngl",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/ngpl",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/lc",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/coalbed",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/shalegas",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/deep",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/nprod",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/drill",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/wellend",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/seis",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/wellfoot",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/welldep",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/enr/wellcost",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/oilwells",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/sum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/whv",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/off",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/deep",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/ngpl",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/lc",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/coalbed",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/shalegas",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/ss",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/wells",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/prod/pp",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/impc",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/expc",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/state",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/poe1",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/poe2",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/move/ist",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/stor/wkly",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "weekly"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/stor/sum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/stor/type",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/stor/lng",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/stor/cap",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/cons/sum",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/cons/num",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/cons/pns",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/cons/acct",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    },
+    {
+      "route": "natural-gas/cons/heat",
+      "name": null,
+      "description": "EIA natural gas survey data",
+      "leaf": true,
+      "frequency": [
+        "monthly",
+        "annual"
+      ],
+      "data_columns": [
+        "value"
+      ],
+      "facets": [
+        "duoarea",
+        "product",
+        "process",
+        "series"
+      ]
+    }
+  ]
+}

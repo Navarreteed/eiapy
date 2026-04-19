@@ -1,0 +1,113 @@
+{
+  "tree": {
+    "nuclear-outages": {
+      "route": "nuclear-outages",
+      "name": "Nuclear Outages",
+      "description": "EIA nuclear outages survey data",
+      "children": {
+        "us-nuclear-outages": {
+          "route": "nuclear-outages/us-nuclear-outages",
+          "name": "U.S. Nuclear Outages",
+          "description": "Nuclear outages daily with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+          "leaf": true,
+          "frequency": [
+            "daily"
+          ],
+          "data_columns": [
+            "capacity",
+            "outage",
+            "percentOutage"
+          ],
+          "facets": []
+        },
+        "generator-nuclear-outages": {
+          "route": "nuclear-outages/generator-nuclear-outages",
+          "name": "Generator Level Nuclear Outages",
+          "description": "Generator level nuclear outages with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+          "leaf": true,
+          "frequency": [
+            "daily"
+          ],
+          "data_columns": [
+            "capacity",
+            "outage",
+            "percentOutage"
+          ],
+          "facets": [
+            "facility",
+            "generator"
+          ]
+        },
+        "facility-nuclear-outages": {
+          "route": "nuclear-outages/facility-nuclear-outages",
+          "name": "Facility Level Nuclear Outages",
+          "description": "Facility level nuclear outages with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+          "leaf": true,
+          "frequency": [
+            "daily"
+          ],
+          "data_columns": [
+            "capacity",
+            "outage",
+            "percentOutage"
+          ],
+          "facets": [
+            "facility"
+          ]
+        }
+      }
+    }
+  },
+  "leaves": [
+    {
+      "route": "nuclear-outages/us-nuclear-outages",
+      "name": "U.S. Nuclear Outages",
+      "description": "Nuclear outages daily with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+      "leaf": true,
+      "frequency": [
+        "daily"
+      ],
+      "data_columns": [
+        "capacity",
+        "outage",
+        "percentOutage"
+      ],
+      "facets": []
+    },
+    {
+      "route": "nuclear-outages/generator-nuclear-outages",
+      "name": "Generator Level Nuclear Outages",
+      "description": "Generator level nuclear outages with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+      "leaf": true,
+      "frequency": [
+        "daily"
+      ],
+      "data_columns": [
+        "capacity",
+        "outage",
+        "percentOutage"
+      ],
+      "facets": [
+        "facility",
+        "generator"
+      ]
+    },
+    {
+      "route": "nuclear-outages/facility-nuclear-outages",
+      "name": "Facility Level Nuclear Outages",
+      "description": "Facility level nuclear outages with capacity, outages, and percent outage.  \n        Source:   Nuclear Regulatory Commission's Power Reactor Status Report.  \n        Interactive data report:  Daily Status of Nuclear Reactors.",
+      "leaf": true,
+      "frequency": [
+        "daily"
+      ],
+      "data_columns": [
+        "capacity",
+        "outage",
+        "percentOutage"
+      ],
+      "facets": [
+        "facility"
+      ]
+    }
+  ]
+}
